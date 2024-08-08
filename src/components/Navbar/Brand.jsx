@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/csc-logo.png' 
+import Logo from '/images/csc-logo.png'; 
 
 function Brand () {
     return(

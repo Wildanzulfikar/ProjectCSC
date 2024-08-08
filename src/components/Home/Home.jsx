@@ -1,12 +1,15 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import ContentHome from "./ContentHome";
+import ListHome from "./LIstHome";
 
-function Home () {
+function Home ({homes}) {
+
     return (
-        <div className="w-full h-screen bg-[#003366]">
-            <Navbar/>
-            <ContentHome />
+        <div> 
+            {
+                homes.map((home) => (
+                    <ListHome key={home.id} {...home} />
+                ))
+            }
         </div>
     )   
 }
