@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact () {
     return (
-        <div className="px-[20%] mt-36">
+        <div id="contact" className="px-[20%] mt-36 pt-9">
             <div className="text-white text-4xl font-extrabold text-center">
                 <h1>Contact</h1>
                 <hr className="mt-4 w-32 m-auto" />

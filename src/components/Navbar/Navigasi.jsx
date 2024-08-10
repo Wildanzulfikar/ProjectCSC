@@ -6,7 +6,7 @@ function Navigasi() {
     <li><a href="#home" className='hover:text-yellow-400'>Home</a></li>
     <li><a href="#about" className='hover:text-yellow-400'>About</a></li>
     <li><a href="#divisi" className='hover:text-yellow-400'>Divisi</a></li>
-    <li><a href="#ContactUs" className='hover:text-yellow-400'>Contact Us</a></li>
+    <li><a href="#contact" className='hover:text-yellow-400'>Contact Us</a></li>
    </ul>
  );
 }

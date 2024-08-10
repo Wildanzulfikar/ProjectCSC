@@ -5,7 +5,7 @@ import Visi from "./Visi";
 
 function ListContent({about, visi, misi}) {
     return (
-        <div className="px-[7%] mt-56 text-white text-lg">
+        <div id="about" className="px-[7%] mt-64 pt-10 text-white text-lg">
             <About about={about}/>
             <div className="flex gap-56 mt-20 ">
                 <Visi visi={visi}/>
